@@ -4,7 +4,7 @@ namespace GitHubPracticeTestNameSpace
 {
     public class TestClass
     {
-        static string message = "I'm scared of you.";
+        static string message = "I'm scared of donuts.";
 
         public TestClass(string msg)
         {
