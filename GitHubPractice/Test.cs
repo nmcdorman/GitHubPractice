@@ -18,7 +18,18 @@ namespace GitHubPracticeTestNameSpace
         
         public void TestMethodTwo()
         {
-            Console.WriteLine(message);
+            try
+            {
+                Console.WriteLine(message);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Goodbye");
+            }
         }
     }    
 }
